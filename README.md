@@ -9,7 +9,7 @@ It's a bit slow because I'm using the Azure free app service.
 ## How to use
 On the website, enter the following information and click the Download button
 
-![WebSite](/raw/master/doc/website.PNG)
+![WebSite](/doc/website.PNG)
 
 1. Document unique key in Google Spreadsheet
 ```
@@ -19,8 +19,8 @@ unique Key 1DTFjamybITTmjOcte7IWTDZ5tPhNHFGISH4PgJtYRK8
 ```
 
 2. Authentication information (only if not public shared)
-+ [How to make public shared](/#How-to-make-public-shared)
-+ [How to use service authentication](/#How-to-use-service-authentication)
++ [How to make public shared](https://github.com/yousky/gglocale#how-to-make-public-shared)
++ [How to use service authentication](https://github.com/yousky/gglocale/#How-to-use-service-authentication)
 
 3. Sheet name
 4. Unique key column name for language resource (Value for first line)
@@ -33,25 +33,25 @@ You can create a Google Spreadsheet similar to this
 
 [Spreadsheet Sample](https://docs.google.com/spreadsheets/d/1DTFjamybITTmjOcte7IWTDZ5tPhNHFGISH4PgJtYRK8)
 
-![Spreadsheet Sample](/raw/master/doc/sheet_sample.PNG)
+![Spreadsheet Sample](/doc/sheet_sample.PNG)
 
 Web site filled with values
-![FilledWebSite](/raw/master/doc/website_sample_filled.PNG)
+![FilledWebSite](/doc/website_sample_filled.PNG)
 
 
 
 ## How to make public shared
 [Purblic Share](https://github.com/theoephraim/node-google-spreadsheet#unauthenticated-access-read-only-access-on-public-docs)
 
-![Purblic Share 01](/raw/master/doc/public_share_01.PNG)
+![Purblic Share 01](/doc/public_share_01.PNG)
 
 1. Click Share on the document to give all web users view rights.
 
-![Purblic Share 02](/raw/master/doc/public_share_02.PNG)
+![Purblic Share 02](/doc/public_share_02.PNG)
 
 2. Select "File" - "Publish to the Web".
 
-![Purblic Share 03](/raw/master/doc/public_share_03.PNG)
+![Purblic Share 03](/doc/public_share_03.PNG)
 
 3. Publish
 
