@@ -20,7 +20,7 @@ unique Key 1DTFjamybITTmjOcte7IWTDZ5tPhNHFGISH4PgJtYRK8
 
 2. Authentication information (only if not public shared)
 + [How to make public shared](https://github.com/yousky/gglocale#how-to-make-public-shared)
-+ [How to use service authentication](https://github.com/yousky/gglocale/#How-to-use-service-authentication)
++ [How to use service authentication](https://github.com/yousky/gglocale#How-to-use-service-authentication)
 
 3. Sheet name
 4. Unique key column name for language resource (Value for first line)
@@ -35,9 +35,9 @@ You can create a Google Spreadsheet similar to this
 
 ![Spreadsheet Sample](/doc/sheet_sample.PNG)
 
-Web site filled with values
 ![FilledWebSite](/doc/website_sample_filled.PNG)
 
+Web site filled with values
 
 
 ## How to make public shared
