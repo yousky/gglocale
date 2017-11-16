@@ -1,0 +1,73 @@
+body, html, .body{
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display:table;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: radial-gradient(closest-corner, rgba(16, 47, 70, 0) 60%, rgba(16, 47, 70, 0.26)),
+  linear-gradient(108deg, #26D0CE, #1A2980 90%);
+  background-repeat: no-repeat;
+  color: #FFFFFF;
+  margin:0;
+}
+input{
+  display: block;
+  margin: 2em auto;
+  padding: 0.5em 0.25em;
+  border: none;
+  border-radius: 0.2em;
+  font-size: 1em;
+  text-align: center;
+  box-shadow: 0 0 1em 0.25em rgba(0, 0, 0, 0.2);
+}
+input.wide{
+  width: 500px;
+}
+textarea{
+  display: block;
+  margin: 2em auto;
+  padding: 0.5em 0.25em;
+  border: none;
+  border-radius: 0.2em;
+  font-size: 1em;
+  text-align: center;
+  box-shadow: 0 0 1em 0.25em rgba(0, 0, 0, 0.2);
+  width: 500px;
+}
+select{
+  display: block;
+  margin: 2em auto;
+  padding: 0.5em 0.25em;
+  border: none;
+  border-radius: 0.2em;
+  font-size: 1.5em;
+  text-align: center;
+  box-shadow: 0 0 1em 0.25em rgba(0, 0, 0, 0.2);
+}
+
+button {
+  position: relative;
+  width:200px;
+  height:50px;
+  font-size: 1.2em;
+  color: #00B7FF;
+  cursor:pointer;
+}
+button:disabled {
+  color: rgb(107, 121, 126);
+  cursor: wait;
+}
+
+button:hover:not(:disabled){
+  background-color: black;
+  color:#fff;
+}
+
+.container{
+  display: table-cell;
+  vertical-align: top;
+  text-align: center;
+  width:500px;
+}

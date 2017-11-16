@@ -1,0 +1,24 @@
+extends layout
+
+block content
+  div.container
+    h1= title
+    p Welcome to #{title}
+
+    input#DocKey.wide(type='text', value='' placeholder='Type document hash key..')
+    input#AuthClientEmail.wide(type='text', value='' placeholder='Type document auth client email..')
+    span.tooltiptext If the value is empty, the document must be publicly published.
+    textarea#AuthPrivateKey.tooltip(rows=10 value='' placeholder='Type document auth private key..')
+    span.tooltiptext If the value is empty, the document must be publicly published.
+    input#SheetName(type='text', value='' placeholder='Type sheet name..')
+    input#KeyCol(type='text', value='' placeholder='Type language key column header name..')
+    input#ValueCol(type='text', value='' placeholder='Type language value column header name')
+    select#FileType(name="FileType")
+      option(value="json") json #{book}
+      option(value="xml4android") xml4android #{book}
+      option(value="resx", selected="selected") resx #{book}
+    button#savebtn.btn Download
+
+  script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js')
+  script(src='/javascripts/index.js')
+  script(src='https://fastcdn.org/FileSaver.js/1.1.20151003/FileSaver.min.js')
