@@ -60,4 +60,5 @@ Web site filled with values
 [Service Authentication](https://github.com/theoephraim/node-google-spreadsheet#service-account-recommended-method)
 
 Follow the instructions on the link site to download the json file.
+
 Just enter the email and private key in the json file into the site.
