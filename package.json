@@ -1,7 +1,7 @@
 {
   "name": "gglocalize",
   "version": "0.9.0",
-  "description": "Convert a Google Spreadsheet to a language resource file ",  
+  "description": "Convert a Google Spreadsheet to a language resource file ",
   "keywords": [
     "Google Spreadsheet",
     "Google",
@@ -25,6 +25,7 @@
     "debug": "~2.6.0",
     "express": "~4.14.1",
     "google-spreadsheet": "^2.0.4",
+    "helmet": "^3.11.0",
     "jade": "~1.11.0",
     "morgan": "~1.7.0",
     "serve-favicon": "~2.3.2",
